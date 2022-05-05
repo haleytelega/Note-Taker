@@ -24,7 +24,7 @@ router.post('/notes', (req, res) => {
     }
 });
 
-router.delete('/notes:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     const result = findById(req.params.id, notes);
     if (result) {
         res.json(result);
