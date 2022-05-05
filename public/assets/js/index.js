@@ -105,29 +105,6 @@ const handleNoteView = (e) => {
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
   activeNote = {};
-
-  const noteTitle = newNoteBtn.querySelector('[name="title"]').value;
-  const noteText = newNoteBtn.querySelector('[name="text"]').value;
-
-  const noteInfo = { noteTitle, noteText };
-  fetch('api/notes', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(noteInfo)
-  })
-  .then(response => {
-    if (response.ok) {
-      return response.json();
-    }
-    alert('Error: ' + response.statusText);
-  })
-  .then(postResponse => {
-    console.log(postResponse);
-    alert('Thank you for adding a note');
-  });
   renderActiveNote();
 };
 
