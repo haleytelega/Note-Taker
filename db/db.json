@@ -1,68 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Test 1",
-      "text": "Test 1 Text",
-      "id": "1"
-    },
-    {
-      "title": "Test 1",
-      "text": "Test 1 Text",
-      "id": "2"
-    },
-    {
-      "title": "Test 2",
-      "text": "Test 2 Text",
-      "id": "3"
-    },
-    {
-      "title": "Test 2",
-      "text": "Test 2 Text",
-      "id": "4"
-    },
-    {
-      "title": "Test 3",
-      "text": "Test 3 Text",
-      "id": "5"
-    },
-    {
-      "title": "Haley",
-      "text": "Haley Text",
-      "id": "6"
-    },
-    {
-      "title": "Haley",
-      "text": "Haley Text",
-      "id": "7"
-    },
-    {
-      "title": "asdf",
-      "text": "zsfvxc",
-      "id": "8"
-    },
-    {
-      "title": "SDFds",
-      "text": "Sfgs",
-      "id": "9"
-    },
-    {
-      "title": "test 10",
-      "text": "test 10",
-      "id": "10"
-    },
-    {
-      "title": "test90",
-      "text": "test90",
-      "id": "11"
-    },
-    {
-      "title": "test30",
-      "text": "test 30",
-      "id": "12"
+      "title": "Haley Test",
+      "text": "test",
+      "id": "0"
     }
   ]
 }
