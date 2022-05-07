@@ -1,4 +1,5 @@
 const express = require('express');
+console.log(express);
 
 const PORT = process.env.PORT || 3001;
 const app = express();

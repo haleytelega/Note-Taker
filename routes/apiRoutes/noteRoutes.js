@@ -1,4 +1,5 @@
 const router = require('express').Router();
+console.log(router);
 const { filterByQuery, createNewNote, validateNotes, findById } = require('../../lib/note');
 const { notes } = require('../../db/db.json');
 
