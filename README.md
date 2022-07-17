@@ -16,7 +16,7 @@
 - [License](#license)
 
   ## Installation
-  What are the steps required to install your project? Express.js
+  What are the steps required to install your project? Please go here: https://ht-note-taker.herokuapp.com/
 
   ## Usage
   Provide instructions and examples for use: Can use this to write your own notes and store them.
